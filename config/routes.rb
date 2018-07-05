@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resoures :dashboards
+  resources :dashboards
   root 'dashboards#index'
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
